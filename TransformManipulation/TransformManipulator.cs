@@ -4,11 +4,9 @@ namespace BaseGameLogic.Movement.TransformManupulation
 {
     public abstract class TransformManipulator
     {
-        [SerializeField]
-        protected Transform _transform;
+        [SerializeField] protected Transform _transform;
 
-        [SerializeField]
-        protected float speed = 10f;
+        [SerializeField] protected float speed = 10f;
         public float Speed
         {
             get { return speed; }
@@ -29,6 +27,5 @@ namespace BaseGameLogic.Movement.TransformManupulation
         {
             this.speed = speed;
         }
-
     }
 }
